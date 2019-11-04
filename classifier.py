@@ -180,10 +180,11 @@ def infer(args, multiple=False):
                 (le, clf) = pickle.load(f, encoding='latin1')
 
     for i, img in enumerate(args.imgs):
-        # print("\n=== {} ===".format(img))
-        person = None
+        if args.verbose:
+            print("\n=== {} ===".format(img))
+        faces = []
         reps = getRep(img, multiple)
-        if len(reps) > 1:
+        if args.verbose and len(reps) > 1:
             print("List of faces in image from left to right")
         for r in reps:
             rep = r[1].reshape(1, -1)
@@ -195,17 +196,17 @@ def infer(args, multiple=False):
             confidence = predictions[maxI]
             if args.verbose:
                 print("Prediction took {} seconds.".format(time.time() - start))
-            if multiple:
-                print("Predict {} @ x={} with {:.2f} confidence.".format(person.decode('utf-8'), bbx,
-                                                                         confidence))
-            else:
-                # print("Predict {} with {:.2f} confidence.".format(person.decode('utf-8'), confidence))
-                pass
+                if multiple:
+                    print("Predict {} @ x={} with {:.2f} confidence.".format(person.decode('utf-8'), bbx,
+                                                                             confidence))
+                else:
+                    print("Predict {} with {:.2f} confidence.".format(person.decode('utf-8'), confidence))
             if isinstance(clf, GMM):
                 dist = np.linalg.norm(rep - clf.means_[maxI])
                 print("  + Distance from the mean: {}".format(dist))
+            faces.append(person.decode('utf-8'))
 
-        print("{} {}".format(i, person.decode('utf-8') if person is not None else None))
+        print("{} {}".format(i, ','.join(faces)))
 
 
 if __name__ == '__main__':
