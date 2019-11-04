@@ -22,7 +22,7 @@ docker cp data <container-id>:/root/
 
 Run classifier
 ```
-./classifier.py infer model/classifier.pkl data/test/<trailer-name>/* > output/<trailer-name>.txt
+./classifier.py infer --multi model/classifier.pkl data/test/<trailer-name>/* > output/<trailer-name>.txt
 ```
 
 Save output back to server
