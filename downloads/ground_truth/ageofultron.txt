@@ -1,0 +1,15 @@
+Avengers,Frames
+Non-Avenger,18
+Hawkeye,"26,69,100"
+Hulk,"29,32,35"
+Hulk Green,"83,109"
+Thor,"35,69"
+Captain America,"35,52,69"
+War Machine,35
+Iron Man,"36,75,101"
+Iron Man Mask,"110,111"
+Quicksilver,65
+Scarlet Witch,"65,81,91,108"
+Nick Fury,77
+Black Widow,"69,78,89,96,102"
+Villain,94
