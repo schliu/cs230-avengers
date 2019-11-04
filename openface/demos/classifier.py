@@ -72,7 +72,8 @@ def getRep(imgPath, multiple=False):
         bb1 = align.getLargestFaceBoundingBox(rgbImg)
         bbs = [bb1]
     if len(bbs) == 0 or (not multiple and bb1 is None):
-        raise Exception("Unable to find a face: {}".format(imgPath))
+        print("Unable to find a face: {}".format(imgPath))
+        return []
     if args.verbose:
         print("Face detection took {} seconds.".format(time.time() - start))
 

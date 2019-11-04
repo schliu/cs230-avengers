@@ -1,0 +1,378 @@
+
+=== ../data/test/avengers2012/avengers2012_0.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_0.jpg
+
+=== ../data/test/avengers2012/avengers2012_1.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_1.jpg
+
+=== ../data/test/avengers2012/avengers2012_10.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_10.jpg
+
+=== ../data/test/avengers2012/avengers2012_100.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_100.jpg
+
+=== ../data/test/avengers2012/avengers2012_101.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_101.jpg
+
+=== ../data/test/avengers2012/avengers2012_102.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_102.jpg
+
+=== ../data/test/avengers2012/avengers2012_103.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_103.jpg
+
+=== ../data/test/avengers2012/avengers2012_104.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_104.jpg
+
+=== ../data/test/avengers2012/avengers2012_105.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_105.jpg
+
+=== ../data/test/avengers2012/avengers2012_106.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_106.jpg
+
+=== ../data/test/avengers2012/avengers2012_107.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_107.jpg
+
+=== ../data/test/avengers2012/avengers2012_108.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_108.jpg
+
+=== ../data/test/avengers2012/avengers2012_109.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_109.jpg
+
+=== ../data/test/avengers2012/avengers2012_11.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_11.jpg
+
+=== ../data/test/avengers2012/avengers2012_110.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_110.jpg
+
+=== ../data/test/avengers2012/avengers2012_111.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_111.jpg
+
+=== ../data/test/avengers2012/avengers2012_112.jpg ===
+Predict Robert Downey Jr Iron Man with 0.97 confidence.
+
+=== ../data/test/avengers2012/avengers2012_113.jpg ===
+Predict Robert Downey Jr Iron Man with 0.95 confidence.
+
+=== ../data/test/avengers2012/avengers2012_114.jpg ===
+Predict Robert Downey Jr Iron Man with 0.96 confidence.
+
+=== ../data/test/avengers2012/avengers2012_115.jpg ===
+Predict Robert Downey Jr Iron Man with 0.96 confidence.
+
+=== ../data/test/avengers2012/avengers2012_116.jpg ===
+Predict Robert Downey Jr Iron Man with 0.91 confidence.
+
+=== ../data/test/avengers2012/avengers2012_117.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_117.jpg
+
+=== ../data/test/avengers2012/avengers2012_118.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_118.jpg
+
+=== ../data/test/avengers2012/avengers2012_119.jpg ===
+Predict Mark Ruffalo Hulk with 0.84 confidence.
+
+=== ../data/test/avengers2012/avengers2012_12.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_12.jpg
+
+=== ../data/test/avengers2012/avengers2012_120.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_120.jpg
+
+=== ../data/test/avengers2012/avengers2012_121.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_121.jpg
+
+=== ../data/test/avengers2012/avengers2012_122.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_122.jpg
+
+=== ../data/test/avengers2012/avengers2012_123.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_123.jpg
+
+=== ../data/test/avengers2012/avengers2012_124.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_124.jpg
+
+=== ../data/test/avengers2012/avengers2012_125.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_125.jpg
+
+=== ../data/test/avengers2012/avengers2012_13.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_13.jpg
+
+=== ../data/test/avengers2012/avengers2012_14.jpg ===
+Predict Tom Hiddleston Loki with 0.51 confidence.
+
+=== ../data/test/avengers2012/avengers2012_15.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_15.jpg
+
+=== ../data/test/avengers2012/avengers2012_16.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_16.jpg
+
+=== ../data/test/avengers2012/avengers2012_17.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_17.jpg
+
+=== ../data/test/avengers2012/avengers2012_18.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_18.jpg
+
+=== ../data/test/avengers2012/avengers2012_19.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_19.jpg
+
+=== ../data/test/avengers2012/avengers2012_2.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_2.jpg
+
+=== ../data/test/avengers2012/avengers2012_20.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_20.jpg
+
+=== ../data/test/avengers2012/avengers2012_21.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_21.jpg
+
+=== ../data/test/avengers2012/avengers2012_22.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_22.jpg
+
+=== ../data/test/avengers2012/avengers2012_23.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_23.jpg
+
+=== ../data/test/avengers2012/avengers2012_24.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_24.jpg
+
+=== ../data/test/avengers2012/avengers2012_25.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_25.jpg
+
+=== ../data/test/avengers2012/avengers2012_26.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_26.jpg
+
+=== ../data/test/avengers2012/avengers2012_27.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_27.jpg
+
+=== ../data/test/avengers2012/avengers2012_28.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_28.jpg
+
+=== ../data/test/avengers2012/avengers2012_29.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_29.jpg
+
+=== ../data/test/avengers2012/avengers2012_3.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_3.jpg
+
+=== ../data/test/avengers2012/avengers2012_30.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_30.jpg
+
+=== ../data/test/avengers2012/avengers2012_31.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_31.jpg
+
+=== ../data/test/avengers2012/avengers2012_32.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_32.jpg
+
+=== ../data/test/avengers2012/avengers2012_33.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_33.jpg
+
+=== ../data/test/avengers2012/avengers2012_34.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_34.jpg
+
+=== ../data/test/avengers2012/avengers2012_35.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_35.jpg
+
+=== ../data/test/avengers2012/avengers2012_36.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_36.jpg
+
+=== ../data/test/avengers2012/avengers2012_37.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_37.jpg
+
+=== ../data/test/avengers2012/avengers2012_38.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_38.jpg
+
+=== ../data/test/avengers2012/avengers2012_39.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_39.jpg
+
+=== ../data/test/avengers2012/avengers2012_4.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_4.jpg
+
+=== ../data/test/avengers2012/avengers2012_40.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_40.jpg
+
+=== ../data/test/avengers2012/avengers2012_41.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_41.jpg
+
+=== ../data/test/avengers2012/avengers2012_42.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_42.jpg
+
+=== ../data/test/avengers2012/avengers2012_43.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_43.jpg
+
+=== ../data/test/avengers2012/avengers2012_44.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_44.jpg
+
+=== ../data/test/avengers2012/avengers2012_45.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_45.jpg
+
+=== ../data/test/avengers2012/avengers2012_46.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_46.jpg
+
+=== ../data/test/avengers2012/avengers2012_47.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_47.jpg
+
+=== ../data/test/avengers2012/avengers2012_48.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_48.jpg
+
+=== ../data/test/avengers2012/avengers2012_49.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_49.jpg
+
+=== ../data/test/avengers2012/avengers2012_5.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_5.jpg
+
+=== ../data/test/avengers2012/avengers2012_50.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_50.jpg
+
+=== ../data/test/avengers2012/avengers2012_51.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_51.jpg
+
+=== ../data/test/avengers2012/avengers2012_52.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_52.jpg
+
+=== ../data/test/avengers2012/avengers2012_53.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_53.jpg
+
+=== ../data/test/avengers2012/avengers2012_54.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_54.jpg
+
+=== ../data/test/avengers2012/avengers2012_55.jpg ===
+Predict Jeremy Renner Hawkeye with 0.91 confidence.
+
+=== ../data/test/avengers2012/avengers2012_56.jpg ===
+Predict Scarlett Johansson Black Widow with 0.91 confidence.
+
+=== ../data/test/avengers2012/avengers2012_57.jpg ===
+Predict Tom Hiddleston Loki with 0.88 confidence.
+
+=== ../data/test/avengers2012/avengers2012_58.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_58.jpg
+
+=== ../data/test/avengers2012/avengers2012_59.jpg ===
+Predict Robert Downey Jr Iron Man with 0.96 confidence.
+
+=== ../data/test/avengers2012/avengers2012_6.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_6.jpg
+
+=== ../data/test/avengers2012/avengers2012_60.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_60.jpg
+
+=== ../data/test/avengers2012/avengers2012_61.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_61.jpg
+
+=== ../data/test/avengers2012/avengers2012_62.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_62.jpg
+
+=== ../data/test/avengers2012/avengers2012_63.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_63.jpg
+
+=== ../data/test/avengers2012/avengers2012_64.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_64.jpg
+
+=== ../data/test/avengers2012/avengers2012_65.jpg ===
+Predict Tom Hiddleston Loki with 0.41 confidence.
+
+=== ../data/test/avengers2012/avengers2012_66.jpg ===
+Predict Tom Hiddleston Loki with 0.48 confidence.
+
+=== ../data/test/avengers2012/avengers2012_67.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_67.jpg
+
+=== ../data/test/avengers2012/avengers2012_68.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_68.jpg
+
+=== ../data/test/avengers2012/avengers2012_69.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_69.jpg
+
+=== ../data/test/avengers2012/avengers2012_7.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_7.jpg
+
+=== ../data/test/avengers2012/avengers2012_70.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_70.jpg
+
+=== ../data/test/avengers2012/avengers2012_71.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_71.jpg
+
+=== ../data/test/avengers2012/avengers2012_72.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_72.jpg
+
+=== ../data/test/avengers2012/avengers2012_73.jpg ===
+Predict Chris Evans Captain America with 0.44 confidence.
+
+=== ../data/test/avengers2012/avengers2012_74.jpg ===
+Predict Robert Downey Jr Iron Man with 0.94 confidence.
+
+=== ../data/test/avengers2012/avengers2012_75.jpg ===
+Predict Scarlett Johansson Black Widow with 0.94 confidence.
+
+=== ../data/test/avengers2012/avengers2012_76.jpg ===
+Predict Chris Evans Captain America with 0.78 confidence.
+
+=== ../data/test/avengers2012/avengers2012_77.jpg ===
+Predict Chris Evans Captain America with 0.85 confidence.
+
+=== ../data/test/avengers2012/avengers2012_78.jpg ===
+Predict Robert Downey Jr Iron Man with 0.97 confidence.
+
+=== ../data/test/avengers2012/avengers2012_79.jpg ===
+Predict Robert Downey Jr Iron Man with 0.97 confidence.
+
+=== ../data/test/avengers2012/avengers2012_8.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_8.jpg
+
+=== ../data/test/avengers2012/avengers2012_80.jpg ===
+Predict Chris Hemsworth Thor with 0.68 confidence.
+
+=== ../data/test/avengers2012/avengers2012_81.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_81.jpg
+
+=== ../data/test/avengers2012/avengers2012_82.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_82.jpg
+
+=== ../data/test/avengers2012/avengers2012_83.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_83.jpg
+
+=== ../data/test/avengers2012/avengers2012_84.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_84.jpg
+
+=== ../data/test/avengers2012/avengers2012_85.jpg ===
+Predict Jeremy Renner Hawkeye with 0.95 confidence.
+
+=== ../data/test/avengers2012/avengers2012_86.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_86.jpg
+
+=== ../data/test/avengers2012/avengers2012_87.jpg ===
+Predict Scarlett Johansson Black Widow with 0.71 confidence.
+
+=== ../data/test/avengers2012/avengers2012_88.jpg ===
+Predict Mark Ruffalo Hulk with 0.45 confidence.
+
+=== ../data/test/avengers2012/avengers2012_89.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_89.jpg
+
+=== ../data/test/avengers2012/avengers2012_9.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_9.jpg
+
+=== ../data/test/avengers2012/avengers2012_90.jpg ===
+Predict Chris Evans Captain America with 0.63 confidence.
+
+=== ../data/test/avengers2012/avengers2012_91.jpg ===
+Predict Robert Downey Jr Iron Man with 0.80 confidence.
+
+=== ../data/test/avengers2012/avengers2012_92.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_92.jpg
+
+=== ../data/test/avengers2012/avengers2012_93.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_93.jpg
+
+=== ../data/test/avengers2012/avengers2012_94.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_94.jpg
+
+=== ../data/test/avengers2012/avengers2012_95.jpg ===
+Predict Chris Evans Captain America with 0.39 confidence.
+
+=== ../data/test/avengers2012/avengers2012_96.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_96.jpg
+
+=== ../data/test/avengers2012/avengers2012_97.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_97.jpg
+
+=== ../data/test/avengers2012/avengers2012_98.jpg ===
+Predict Robert Downey Jr Iron Man with 0.90 confidence.
+
+=== ../data/test/avengers2012/avengers2012_99.jpg ===
+Unable to find a face: ../data/test/avengers2012/avengers2012_99.jpg
