@@ -27,6 +27,7 @@ import cv2
 import os
 import pickle
 import sys
+import warnings
 
 from operator import itemgetter
 
@@ -44,6 +45,8 @@ from sklearn.grid_search import GridSearchCV
 from sklearn.mixture import GMM
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import GaussianNB
+
+warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 fileDir = os.path.dirname(os.path.realpath(__file__))
 modelDir = os.path.join(fileDir, 'openface', 'models')
@@ -96,7 +99,7 @@ def getRep(imgPath, multiple=False):
         if args.verbose:
             print("Neural network forward pass took {} seconds.".format(
                 time.time() - start))
-        reps.append((bb.center().x, rep))
+        reps.append((bb, rep))
     sreps = sorted(reps, key=lambda x: x[0])
     return sreps
 
@@ -186,9 +189,11 @@ def infer(args, multiple=False):
         reps = getRep(img, multiple)
         if args.verbose and len(reps) > 1:
             print("List of faces in image from left to right")
+
+        image  = cv2.imread(img, cv2.IMREAD_UNCHANGED)
         for r in reps:
             rep = r[1].reshape(1, -1)
-            bbx = r[0]
+            bb = r[0]
             start = time.time()
             predictions = clf.predict_proba(rep).ravel()
             maxI = np.argmax(predictions)
@@ -196,17 +201,21 @@ def infer(args, multiple=False):
             confidence = predictions[maxI]
             if args.verbose:
                 print("Prediction took {} seconds.".format(time.time() - start))
-                if multiple:
-                    print("Predict {} @ x={} with {:.2f} confidence.".format(person.decode('utf-8'), bbx,
-                                                                             confidence))
-                else:
-                    print("Predict {} with {:.2f} confidence.".format(person.decode('utf-8'), confidence))
+                print("Predict {} @ x={} with {:.2f} confidence.".format(person.decode('utf-8'), bb.center().x, confidence))
             if isinstance(clf, GMM):
                 dist = np.linalg.norm(rep - clf.means_[maxI])
                 print("  + Distance from the mean: {}".format(dist))
             faces.append(person.decode('utf-8'))
 
+            cv2.rectangle(image, (bb.left(), bb.top()), (bb.right(), bb.bottom()), (0, 255, 0), 2)
+
         print("{} {}".format(i, ','.join(faces)))
+
+        # write image
+        path = 'boxes/' + img.split('/')[-1]
+        cv2.imwrite(path, image)
+        if args.verbose:
+            print('saved to ' + path)
 
 
 if __name__ == '__main__':
