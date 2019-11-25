@@ -208,6 +208,9 @@ def infer(args, multiple=False):
             faces.append(person.decode('utf-8'))
 
             cv2.rectangle(image, (bb.left(), bb.top()), (bb.right(), bb.bottom()), (0, 255, 0), 2)
+            cv2.putText(
+                image, "{} @{:.2f}".format(person.decode('utf-8'), confidence),
+                (bb.left(), bb.bottom()+20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
 
         print("{} {}".format(i, ','.join(faces)))
 
@@ -215,7 +218,7 @@ def infer(args, multiple=False):
         path = 'boxes/' + img.split('/')[-1]
         cv2.imwrite(path, image)
         if args.verbose:
-            print('saved to ' + path)
+            print('Saved bounding boxes to: ' + path)
 
 
 if __name__ == '__main__':
