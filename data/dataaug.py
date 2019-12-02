@@ -117,30 +117,10 @@ def change_channel_ratio(img, channel='r', ratio=0.5):
     np.multiply(img[:, :, ci], ratio, out=img[:, :, ci], casting="unsafe") 
     return img
 
-try:
-    os.mkdir(new_dirname + '/' + 'translate')
-except:
-    pass
-
-#os.mkdir(new_dirname + '/' + 'random_crop')
-try:
-    os.mkdir(new_dirname + '/' + 'rotate_img')
-except:
-    pass
-
-#os.mkdir(new_dirname + '/' + 'gaussian_noise')
-try:
-    os.mkdir(new_dirname + '/' + 'distort')
-except:
-    pass
-
-try:
-    os.mkdir(new_dirname + '/' + 'change_channel_ratio')
-except:
-    pass
-
 for foldername in os.listdir(data_dir):
     try:
+        os.mkdir(new_dirname + '/' + foldername)
+
         for filename in os.listdir(data_dir + '/' + foldername):
             try:
                 print(filename)
@@ -152,16 +132,16 @@ for foldername in os.listdir(data_dir):
             
                 #translate
                 t_img = translate(img, direction='up', shift=50)
-                matplotlib.image.imsave(new_dirname + '/' + 'translate/' + filename + '_1' + '.png', t_img)
+                matplotlib.image.imsave(new_dirname + '/' + foldername + '/' + filename + 'translate_1' + '.png', t_img)
 
                 t_img = translate(img, direction='down', shift=100)
-                matplotlib.image.imsave(new_dirname + '/' + 'translate/' + filename + '_2' + '.png', t_img)
+                matplotlib.image.imsave(new_dirname + '/' + foldername + '/' + filename + 'translate_2' + '.png', t_img)
             
                 t_img = translate(img, direction='left', shift=150)
-                matplotlib.image.imsave(new_dirname + '/' + 'translate/' + filename + '_3' + '.png', t_img)
+                matplotlib.image.imsave(new_dirname + '/' + foldername + '/' + filename + 'translate_3' + '.png', t_img)
 
                 t_img = translate(img, direction='right', shift=200)
-                matplotlib.image.imsave(new_dirname + '/' + 'translate/' + filename + '_4' + '.png', t_img)
+                matplotlib.image.imsave(new_dirname + '/' + foldername + '/' + filename + 'translate_4' + '.png', t_img)
             
                 #random_crop
                 #c_img = random_crop(img, crop_size = (int(min_size * 0.90), int(min_size * 0.90)))
@@ -178,16 +158,16 @@ for foldername in os.listdir(data_dir):
             
                 #rotate_img
                 r_img = rotate_img(img, 5)
-                matplotlib.image.imsave(new_dirname + '/' + 'rotate_img/' + filename + '_1' + '.png', r_img)
+                matplotlib.image.imsave(new_dirname + '/' + foldername + '/' + filename + 'rotate_1' + '.png', r_img)
 
                 r_img = rotate_img(img, 25)
-                matplotlib.image.imsave(new_dirname + '/' + 'rotate_img/' + filename + '_2' + '.png', r_img)
+                matplotlib.image.imsave(new_dirname + '/' + foldername + '/' + filename + 'rotate_2' + '.png', r_img)
 
                 r_img = rotate_img(img, 45)
-                matplotlib.image.imsave(new_dirname + '/' + 'rotate_img/' + filename + '_3' + '.png', r_img)
+                matplotlib.image.imsave(new_dirname + '/' + foldername + '/' + filename + 'rotate_3' + '.png', r_img)
 
                 r_img = rotate_img(img, 60)
-                matplotlib.image.imsave(new_dirname + '/' + 'rotate_img/' + filename + '_4' + '.png', r_img)  
+                matplotlib.image.imsave(new_dirname + '/' + foldername + '/' + filename + 'rotate_4' + '.png', r_img)  
 
                 #gaussian_noise
                 #g_img = gaussian_noise(img, mean = 0, sigma=0.03)
@@ -207,17 +187,17 @@ for foldername in os.listdir(data_dir):
                     for x_param in [0.02, 0.04]:
                         for y_param in [5, 10]:
                             d_img = distort(img, orientation=ori, x_scale=x_param, y_scale=y_param)
-                            matplotlib.image.imsave(new_dirname + '/' + 'distort/' + filename + '_' + str(x_param) + '_' + str(y_param) + '.png', d_img)
+                            matplotlib.image.imsave(new_dirname + '/' + foldername + '/' + filename + 'distort_' + str(x_param) + '_' + str(y_param) + '.png', d_img)
 
                 #change_channel_ratio
                 cc_img = change_channel_ratio(img, ratio=0.3)
-                matplotlib.image.imsave(new_dirname + '/' + 'change_channel_ratio/' + filename + '_1' + '.png', cc_img)
+                matplotlib.image.imsave(new_dirname + '/' + foldername + '/' + filename + 'change_channel_1' + '.png', cc_img)
 
                 cc_img = change_channel_ratio(img, ratio=0.6) 
-                matplotlib.image.imsave(new_dirname + '/' + 'change_channel_ratio/' + filename + '_2' + '.png', cc_img)
+                matplotlib.image.imsave(new_dirname + '/' + foldername + '/' + filename + 'change_channel_2' + '.png', cc_img)
 
                 cc_img = change_channel_ratio(img, ratio=0.9)
-                matplotlib.image.imsave(new_dirname + '/' + 'change_channel_ratio/' + filename + '_3' + '.png', cc_img)
+                matplotlib.image.imsave(new_dirname + '/' + foldername + '/' + filename + 'change_channel_3' + '.png', cc_img)
 
             except:
                 pass
