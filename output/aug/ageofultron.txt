@@ -1,0 +1,138 @@
+0 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 Scarlett Johansson Black Widow,Mark Ruffalo Hulk,Mark Ruffalo Hulk
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 Jeremy Renner Hawkeye
+27 
+28 
+29 Mark Ruffalo Hulk
+30 Mark Ruffalo Hulk
+31 
+32 
+33 
+34 
+35 Chris Hemsworth Thor,Tom Hiddleston Loki
+36 Robert Downey Jr Iron Man,Tom Hiddleston Loki
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 Chris Evans Captain America
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 Chris Evans Captain America
+66 
+67 
+68 
+69 Chris Hemsworth Thor,Jeremy Renner Hawkeye,Scarlett Johansson Black Widow,Mark Ruffalo Hulk
+70 Chris Hemsworth Thor,Scarlett Johansson Black Widow,Mark Ruffalo Hulk
+71 
+72 
+73 
+74 
+75 Robert Downey Jr Iron Man
+76 
+77 
+78 Scarlett Johansson Black Widow
+79 
+80 
+81 Chris Hemsworth Thor
+82 
+83 
+84 
+85 
+86 
+87 Scarlett Johansson Black Widow
+88 
+89 Tom Hiddleston Loki
+90 Scarlett Johansson Black Widow
+91 Samuel L Jackson Nick Fury
+92 
+93 
+94 Mark Ruffalo Hulk
+95 
+96 Scarlett Johansson Black Widow
+97 
+98 
+99 
+100 Jeremy Renner Hawkeye
+101 Robert Downey Jr Iron Man
+102 
+103 
+104 
+105 
+106 
+107 
+108 
+109 
+110 
+111 
+112 
+113 
+114 
+115 
+116 
+117 
+118 
+119 
+120 
+121 
+122 
+123 
+124 
+125 
+126 
+127 
+128 
+129 
+130 
+131 
+132 
+133 
+134 
+135 
+136 
+137 
