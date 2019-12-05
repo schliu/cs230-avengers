@@ -199,8 +199,9 @@ for foldername in os.listdir(data_dir):
                 cc_img = change_channel_ratio(img, ratio=0.9)
                 matplotlib.image.imsave(new_dirname + '/' + foldername + '/' + filename + 'change_channel_3' + '.png', cc_img)
 
-            except:
-                pass
-    except:
-        pass
+            except Exception as e:
+                print('Error: %s' % str(e))
+                
+    except Exception as e:
+        print('Error: %s' % str(e))
 

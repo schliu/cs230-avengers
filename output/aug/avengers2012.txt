@@ -64,7 +64,7 @@
 63 
 64 
 65 Tom Hiddleston Loki
-66 Tom Hiddleston Loki,Chris Hemsworth Thor
+66 Tom Hiddleston Loki,Aaron Taylor Johnson Quicksilver
 67 
 68 
 69 
@@ -85,15 +85,15 @@
 84 
 85 Jeremy Renner Hawkeye
 86 
-87 Samuel L Jackson Nick Fury
-88 Mark Ruffalo Hulk
+87 Elizabeth Olsen Scarlet Witch
+88 change_channel_ratio
 89 
 90 Mark Ruffalo Hulk
 91 Robert Downey Jr Iron Man
 92 
 93 
 94 
-95 Chris Hemsworth Thor,Chris Evans Captain America
+95 Chris Hemsworth Thor,change_channel_ratio
 96 
 97 
 98 Robert Downey Jr Iron Man
