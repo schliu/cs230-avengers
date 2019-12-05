@@ -16,7 +16,7 @@
 15 
 16 
 17 
-18 Scarlett Johansson Black Widow,Aaron Taylor Johnson Quicksilver,change_channel_ratio
+18 Scarlett Johansson Black Widow,Aaron Taylor Johnson Quicksilver,Mark Ruffalo Hulk
 19 
 20 
 21 
@@ -24,7 +24,7 @@
 23 
 24 
 25 
-26 change_channel_ratio
+26 Jeremy Renner Hawkeye
 27 
 28 
 29 Mark Ruffalo Hulk
@@ -34,7 +34,7 @@
 33 
 34 
 35 Chris Hemsworth Thor,Tom Hiddleston Loki
-36 Robert Downey Jr Iron Man,change_channel_ratio
+36 Robert Downey Jr Iron Man,Tom Hiddleston Loki
 37 
 38 
 39 
@@ -79,7 +79,7 @@
 78 Scarlett Johansson Black Widow
 79 
 80 
-81 change_channel_ratio
+81 Chris Evans Captain America
 82 
 83 
 84 
@@ -88,7 +88,7 @@
 87 Samuel L Jackson Nick Fury
 88 
 89 Tom Hiddleston Loki
-90 Aaron Taylor Johnson Quicksilver
+90 Scarlett Johansson Black Widow
 91 Elizabeth Olsen Scarlet Witch
 92 
 93 

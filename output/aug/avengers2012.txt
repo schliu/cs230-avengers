@@ -86,14 +86,14 @@
 85 Jeremy Renner Hawkeye
 86 
 87 Elizabeth Olsen Scarlet Witch
-88 change_channel_ratio
+88 Mark Ruffalo Hulk
 89 
 90 Mark Ruffalo Hulk
 91 Robert Downey Jr Iron Man
 92 
 93 
 94 
-95 Chris Hemsworth Thor,change_channel_ratio
+95 Chris Hemsworth Thor,Chris Evans Captain America
 96 
 97 
 98 Robert Downey Jr Iron Man
