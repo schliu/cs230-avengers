@@ -16,7 +16,7 @@
 15 
 16 
 17 
-18 Scarlett Johansson Black Widow,Mark Ruffalo Hulk,Mark Ruffalo Hulk
+18 Scarlett Johansson Black Widow,Aaron Taylor Johnson Quicksilver,Mark Ruffalo Hulk
 19 
 20 
 21 
@@ -63,12 +63,12 @@
 62 
 63 
 64 
-65 Chris Evans Captain America
+65 Aaron Taylor Johnson Quicksilver
 66 
 67 
 68 
-69 Chris Hemsworth Thor,Jeremy Renner Hawkeye,Scarlett Johansson Black Widow,Mark Ruffalo Hulk
-70 Chris Hemsworth Thor,Scarlett Johansson Black Widow,Mark Ruffalo Hulk
+69 Chris Hemsworth Thor,Jeremy Renner Hawkeye,Elizabeth Olsen Scarlet Witch,Mark Ruffalo Hulk
+70 Chris Hemsworth Thor,Elizabeth Olsen Scarlet Witch,Mark Ruffalo Hulk
 71 
 72 
 73 
@@ -79,17 +79,17 @@
 78 Scarlett Johansson Black Widow
 79 
 80 
-81 Chris Hemsworth Thor
+81 Chris Evans Captain America
 82 
 83 
 84 
 85 
 86 
-87 Scarlett Johansson Black Widow
+87 Samuel L Jackson Nick Fury
 88 
 89 Tom Hiddleston Loki
 90 Scarlett Johansson Black Widow
-91 Samuel L Jackson Nick Fury
+91 Elizabeth Olsen Scarlet Witch
 92 
 93 
 94 Mark Ruffalo Hulk
