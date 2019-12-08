@@ -1,5 +1,7 @@
 # cs230-avengers
 
+## OpenFace
+
 Prepare the docker container. The container file is way over the file limit, so it will have to stay on our server.
 ```
 cat container.tar | docker import - openface:latest
@@ -39,3 +41,7 @@ Stop docker
 ```
 exit
 ```
+
+## YOLOFace
+
+Follow directions at https://github.com/sthanhng/yoloface to setup. Clone yoloface into this directory, download weights, and run `yoloface_avengers.py`
