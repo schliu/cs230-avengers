@@ -44,4 +44,10 @@ exit
 
 ## YOLOFace
 
-Follow directions at https://github.com/sthanhng/yoloface to setup. Clone yoloface into this directory, download weights, and run `yoloface_avengers.py`
+Follow directions at https://github.com/sthanhng/yoloface to download dependencies. 
+
+Clone yoloface into `yoloface/` directory.
+
+Run `sh model-weights/get_models.sh` to download weights in `model-weights/`
+
+Run `yoloface_avengers.py`
