@@ -9,6 +9,9 @@ from sklearn.preprocessing import LabelEncoder, Normalizer
 from detect_faces import detect_faces
 
 
+min_conf = 0.5
+
+
 if __name__ == '__main__':
 	with open(sys.argv[1], 'rb') as f:
 		(le, model) = pickle.load(f, encoding='latin1')
@@ -19,21 +22,22 @@ if __name__ == '__main__':
 
 	for i, filename in enumerate(files):
 		path = directory + filename
-		faces, d_conf, d_loc, img = detect_faces(path)
+		faces, d_conf, d_loc, img = detect_faces(path, min_conf)
 		d = Draw(img)
 
-		result = []
+		results = []
 		for j, face in enumerate(faces):
 			rep = embedder.embeddings([face])
 			pred = model.predict_proba(rep).ravel()
 			maxI = np.argmax(pred)
 			confidence = pred[maxI]
 			person = le.inverse_transform([maxI])[0]
-			result.append('{} ({:.2f})'.format(person, confidence))
+			result = '{} ({:.2f})'.format(person, confidence)
 			d.rectangle(d_loc[j], outline='green')
 			d.text(d_loc[j][0], '{}\n detect: {:.2f}'.format(result, d_conf[j]))
+			results.append(result)
 
-		print(i, ', '.join(result))
+		print(i, ', '.join(results))
 
 		if sys.argv[3]:
 			img.save('{}/{}'.format(sys.argv[3], filename), 'JPEG')

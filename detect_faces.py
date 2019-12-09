@@ -10,7 +10,7 @@ detector = MTCNN()
 CONF_THRESHOLD = 0.5
 
 
-def detect_faces(src):
+def detect_faces(src, min_conf=CONF_THRESHOLD):
 	img = Image.open(src).convert('RGB')
 	pixels = np.asarray(img)
 	boxes = detector.detect_faces(pixels)
@@ -18,7 +18,7 @@ def detect_faces(src):
 	confidences = []
 	locations = []
 	for box in boxes:
-		if box['confidence'] > CONF_THRESHOLD:
+		if box['confidence'] > min_conf:
 			x1, y1, width, height = box['box']
 			x1, y1 = abs(x1), abs(y1)
 			x2, y2 = x1 + width, y1 + height
@@ -26,7 +26,7 @@ def detect_faces(src):
 			aligned = Image.fromarray(face).resize((IMAGE_SIZE, IMAGE_SIZE))
 			faces.append(np.asarray(aligned))
 			confidences.append(box['confidence'])
-			locations.append(((x1, y1), (x2, y2)))
+			locations.append([(x1, y1), (x2, y2)])
 	return faces, confidences, locations, img
 
 
