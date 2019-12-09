@@ -18,7 +18,7 @@ if __name__ == '__main__':
 
 	for i, filename in enumerate(files):
 		path = directory + filename
-		faces = detect_faces(path)
+		faces = detect_faces(path, sys.argv[3])
 		result = []
 
 		for face in faces:
