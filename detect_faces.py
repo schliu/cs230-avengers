@@ -3,7 +3,6 @@ import os
 import sys
 from mtcnn.mtcnn import MTCNN
 from PIL import Image
-from PIL.ImageDraw import Draw
 
 
 IMAGE_SIZE = 182
@@ -11,13 +10,13 @@ detector = MTCNN()
 CONF_THRESHOLD = 0.5
 
 
-def detect_faces(src, draw=None):
+def detect_faces(src):
 	img = Image.open(src).convert('RGB')
-	if draw:
-		d = Draw(img)
 	pixels = np.asarray(img)
 	boxes = detector.detect_faces(pixels)
 	faces = []
+	confidences = []
+	locations = []
 	for box in boxes:
 		if box['confidence'] > CONF_THRESHOLD:
 			x1, y1, width, height = box['box']
@@ -26,12 +25,9 @@ def detect_faces(src, draw=None):
 			face = pixels[y1:y2, x1:x2]
 			aligned = Image.fromarray(face).resize((IMAGE_SIZE, IMAGE_SIZE))
 			faces.append(np.asarray(aligned))
-			if draw:
-				d.rectangle([(x1, y1), (x2, y2)], outline='green')
-				d.text((x1, y1), '{:.2f}'.format(box['confidence']))
-	if draw:
-		img.save('{}/{}.jpg'.format(draw, src.split('/')[-1]), 'JPEG')
-	return faces
+			confidences.append(box['confidence'])
+			locations.append(((x1, y1), (x2, y2)))
+	return faces, confidences, locations, img
 
 
 def load_faces(directory):

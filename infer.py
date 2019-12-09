@@ -3,6 +3,7 @@ import os
 import pickle
 import sys
 from keras_facenet import FaceNet
+from PIL.ImageDraw import Draw
 from sklearn.preprocessing import LabelEncoder, Normalizer
 
 from detect_faces import detect_faces
@@ -18,15 +19,21 @@ if __name__ == '__main__':
 
 	for i, filename in enumerate(files):
 		path = directory + filename
-		faces = detect_faces(path, sys.argv[3])
-		result = []
+		faces, d_conf, d_loc, img = detect_faces(path)
+		d = Draw(img)
 
-		for face in faces:
+		result = []
+		for j, face in enumerate(faces):
 			rep = embedder.embeddings([face])
 			pred = model.predict_proba(rep).ravel()
 			maxI = np.argmax(pred)
 			confidence = pred[maxI]
 			person = le.inverse_transform([maxI])[0]
 			result.append('{} ({:.2f})'.format(person, confidence))
+			d.rectangle(d_loc[j], outline='green')
+			d.text(d_loc[j][0], '{}\n detect: {:.2f}'.format(result, d_conf[j]))
 
 		print(i, ', '.join(result))
+
+		if sys.argv[3]:
+			img.save('{}/{}'.format(sys.argv[3], filename), 'JPEG')
