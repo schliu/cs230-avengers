@@ -1,0 +1,138 @@
+0 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 Scarlet Witch (0.92), Captain Marvel (0.25), Black Widow (0.28), Quicksilver (0.98), Captain Marvel (0.66), Hawkeye (0.66), Captain America (0.30)
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 Hawkeye (0.97)
+27 
+28 
+29 Hulk (0.53), Quicksilver (0.26), Scarlet Witch (0.38)
+30 Hulk (0.94), Quicksilver (0.50)
+31 
+32 Hulk (0.46)
+33 
+34 
+35 Captain America (0.46), Loki (0.45), Hulk (0.67), Iron Man (0.41), Loki (0.91)
+36 Hawkeye (0.47), Iron Man (0.97)
+37 
+38 Hulk (0.80)
+39 Iron Man (0.38), Iron Man (0.33), Nick Fury (0.63), Iron Man (0.63), Iron Man (0.55)
+40 
+41 Iron Man (0.34)
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 Captain America (0.98)
+53 
+54 Thor (0.24), Captain America (0.41)
+55 Quicksilver (0.31), Hulk (0.46)
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 Quicksilver (1.00), Scarlet Witch (0.77)
+66 
+67 
+68 
+69 Hawkeye (0.53), Scarlet Witch (0.53), Captain America (0.84), Thor (0.99)
+70 Quicksilver (0.66), Captain America (0.60), Thor (0.98)
+71 
+72 
+73 Iron Man (0.83)
+74 
+75 Iron Man (0.96)
+76 
+77 Nick Fury (0.77)
+78 Black Widow (0.99)
+79 
+80 
+81 Hawkeye (0.55), Captain America (0.53)
+82 
+83 
+84 Nick Fury (0.33), Quicksilver (0.57), Hawkeye (0.29)
+85 
+86 
+87 
+88 
+89 Iron Man (0.46)
+90 
+91 Scarlet Witch (0.97)
+92 Iron Man (0.40)
+93 
+94 Nick Fury (0.47)
+95 
+96 Black Widow (0.97)
+97 
+98 
+99 Quicksilver (0.79)
+100 Hawkeye (0.86)
+101 Iron Man (0.90)
+102 Black Widow (0.94)
+103 
+104 
+105 
+106 
+107 
+108 
+109 
+110 
+111 Captain Marvel (0.43), Black Widow (0.35)
+112 
+113 
+114 
+115 
+116 
+117 
+118 
+119 
+120 
+121 
+122 
+123 
+124 
+125 
+126 
+127 
+128 
+129 
+130 
+131 
+132 
+133 
+134 
+135 
+136 
+137 
